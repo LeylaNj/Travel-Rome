@@ -20,12 +20,55 @@ body {
 .img-responsive {
   max-width: 100%;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 0;
-}
 
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+.text-center {
+  text-align: center;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+main h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+.btn {
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
+  background-color: #462cb2;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url("/images/colosseum.jpeg");
@@ -96,6 +139,9 @@ main p {
   color: #272044;
   opacity: 0.7;
 }
+.secondary-section {
+  background: #f8f8f8;
+}
 
 footer {
   color: white;
@@ -155,6 +201,7 @@ footer a {
   section {
     padding: 30px;
   }
+
   main h2 {
     font-size: 12px;
   }
