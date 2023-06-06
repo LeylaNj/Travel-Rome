@@ -51,6 +51,9 @@ section {
 .card-footer {
   padding: 0 30px 30px;
 }
+.instagram-embed {
+  margin: 30px 0;
+}
 
 main h4 {
   font-size: 24px;
