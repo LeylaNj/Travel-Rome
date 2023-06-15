@@ -39,7 +39,13 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+  aspect-ratio: 1 /1;
 }
+.img-responsive1 {
+  width: 100%;
+  display: block;
+}
+
 .embed {
   width: 100%;
   aspect-ratio: 1 /1;
